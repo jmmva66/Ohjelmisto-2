@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4 - Sorting Hat</title>
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+        <h1>Assignment 4<br>
+        Harry Potter sorting hat</h1>
+        <p></p>
+        <form id="getname">
+            Write your name: <input type="text" id="userName" name="name"><br>
+            <button type="button" onclick="printname()">Submit</button>
+        </form>
+        <p id="Target"></p>
+      <script>
+        function printname() {
+        const inputField = document.querySelector("#userName");
+        const name = inputField.value;
+          document.querySelector("#Target").innerHTML = name + ", you are " + gethouse();
+        }
+        function gethouse() {
+            let house;
+            sortinghat = Math.floor(Math.random() * 4)
+              switch (sortinghat)
+              {
+                case 0:
+                  house = "Gryffindor";
+                  return house;
+                  case 1:
+                    house = "Ravenclaw";
+                    return house;
+                    case 2:
+                      house = "Hufflepuff";
+                      return house;
+                      case 3:
+                        house = "Slytherin";
+                        return house;
+              }
+            }
+      </script>
+    <a href="module1_index.html">Module 1</a>
+</div>
+</body>
+</html>

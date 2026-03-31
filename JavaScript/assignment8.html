@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 8 - Leap Year lister</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+  <div class="assignment-card">
+    <h1>Leap Year Interval</h1>
+    <form>
+        Start year: <input type="text" id="startYear"><br>
+        End year: <input type="text" id="endYear">
+        <button type="button" onclick="listLeaps()">Show Years</button>
+    </form>
+    <ul id="LeapList"></ul>
+    <script>
+        function listLeaps() {
+            const start = parseInt(document.querySelector("#startYear").value);
+            const end = parseInt(document.querySelector("#endYear").value);
+            const list = document.querySelector("#LeapList");
+            list.innerHTML = "";
+
+            for (let y = start; y <= end; y++) {
+                if ((y % 4 === 0 && y % 100 !== 0) || (y % 400 === 0)) {
+                    let li = document.createElement("li");
+                    li.textContent = y;
+                    list.appendChild(li);
+                }
+            }
+        }
+    </script>
+    <br>
+    <a href="module1_index.html">Module 1</a>
+</div>
+</body>
+</html>

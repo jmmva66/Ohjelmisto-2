@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 10 - Dice roll result calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+  <div class="assignment-card">
+    <h1>Dice Probability</h1><br>
+
+    Amount of dice: <input type="text" id="numDice"><br>
+    Sum needed: <input type="text" id="targetSum">
+    <button type="button" onclick="simulate()">Calculate Probability</button>
+    <p id="ProbResult"></p>
+    <script>
+        function simulate() {
+            const nDice = parseInt(document.querySelector("#numDice").value);
+            const tSum = parseInt(document.querySelector("#targetSum").value);
+            const rounds = 10000;
+            let hits = 0;
+
+            for (let i = 0; i < rounds; i++) {
+                let currentSum = 0;
+                for (let j = 0; j < nDice; j++) {
+                    currentSum += Math.floor(Math.random() * 6) + 1;
+                }
+                if (currentSum === tSum) hits++;
+            }
+            const prob = (hits / rounds * 100).toFixed(1);
+            document.querySelector("#ProbResult").innerHTML =
+                "Probability to get sum " + tSum + " with " + nDice + " dice is roughly " + prob + "%";
+        }
+    </script>
+    <a href="module1_index.html">Module 1</a>
+</div>
+</body>
+</html>

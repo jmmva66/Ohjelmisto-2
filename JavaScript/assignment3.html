@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+        <h1>Assignment 3<br>
+        Math equations</h1>
+        <form id="getnumbers">
+            Give first number: <input type="text" id="number1" name="name"><br>
+            Give second number: <input type="text" id="number2" name="name"><br>
+            Give third number: <input type="text" id="number3" name="name"><br>
+
+            <button type="button" onclick="printresults()">Submit</button>
+        </form>
+
+        <p id="Sum"></p>
+        <p id="Product"p>
+        <p id="Average"></p>
+
+    <script>
+        function printresults() {
+        const inputField1 = document.querySelector("#number1");
+        const inputField2 = document.querySelector("#number2");
+        const inputField3 = document.querySelector("#number3");
+
+
+        const number1 = inputField1.value;
+        const number2 = inputField2.value;
+        const number3 = inputField3.value;
+
+        const sum_of_numbers = +number1 + +number2 + +number3;
+        const product_of_numbers = +number1 * +number2 * +number3;
+
+        document.querySelector("#Sum").innerHTML = "Sum of components: " + sum_of_numbers;
+        document.querySelector("#Product").innerHTML = "Sum of components: " + product_of_numbers;
+        document.querySelector("#Average").innerHTML = "Average of numbers: " + sum_of_numbers / 3;
+        }
+    </script>
+    <a href="module1_index.html">Module 1</a>
+</div>
+</body>
+</html>

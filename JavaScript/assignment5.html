@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 - Leap Year</title>
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+        <h1>Assignment 5 <br>
+          Leap Year Checker</h1>
+
+        <form id="yearform">
+            <input type="text" id="yearInput" placeholder="Enter a year..." name="year">
+            <button type="button" onclick="checkLeap()">Check Year</button>
+        </form>
+
+        <p id="Target"></p>
+
+    <script>
+        function checkLeap() {
+            const inputField = document.querySelector("#yearInput");
+            const year = parseInt(inputField.value);
+            const target = document.querySelector("#Target");
+
+            if (isNaN(year)) {
+                target.innerHTML = "Please enter a valid year.";
+                return;
+            }
+
+            let isLeap = false;
+
+            if (year % 4 === 0) {
+                if (year % 100 === 0) {
+                    if (year % 400 === 0) {
+                        isLeap = true;
+                    } else {
+                        isLeap = false;
+                    }
+                } else {
+                    isLeap = true;
+                }
+            }
+
+            if (isLeap) {
+                target.innerHTML ="The year " + year + " is a leap year.";
+            } else {
+                target.innerHTML ="The year " + year + " is not a leap year.";
+            }
+        }
+    </script>
+    <a href="module1_index.html">Module 1</a>
+</div>
+</body>
+</html>

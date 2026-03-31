@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44eb11e8-035b-49a4-9c04-f286be739742" name="Changes" comment="Moved python modules to subfolder">
-      <change afterPath="$PROJECT_DIR$/JavaScript/assigment3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Module12/Assignment1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Module12/Assignment2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Assigment1.xml" beforeDir="false" />
+    <list default="true" id="44eb11e8-035b-49a4-9c04-f286be739742" name="Changes" comment="Added python module 12 solutions.">
+      <change afterPath="$PROJECT_DIR$/JavaScript/assignment-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/assignment10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/assignment4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/assignment5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/assignment6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/assignment7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/assignment8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/assignment9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/index_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/module1_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/assigment3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/assignment3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/assignment1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/assignment1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/assignment2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/assignment2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +29,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,6 +67,8 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.assigment3.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.Assigment1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Assignment1.executor&quot;: &quot;Run&quot;,
@@ -73,6 +83,7 @@
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -89,7 +100,7 @@
       <recent name="C:\Users\jmmva\PycharmProjects\Ohjelmisto-2\Module9" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Assigment1">
     <configuration name="Assigment1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Ohjelmisto-2" />
       <option name="ENV_FILES" value="" />
@@ -139,6 +150,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Assigment1" />
       <item itemvalue="Python.Assignment1" />
       <item itemvalue="Python.Assigment2" />
     </list>
@@ -163,7 +175,8 @@
       <workItem from="1773939249535" duration="624000" />
       <workItem from="1773986986425" duration="147000" />
       <workItem from="1774343417399" duration="4761000" />
-      <workItem from="1774949749431" duration="3928000" />
+      <workItem from="1774949749431" duration="7853000" />
+      <workItem from="1774979535859" duration="7487000" />
     </task>
     <task id="LOCAL-00001" summary="Added solutions to module 9">
       <option name="closed" value="true" />
@@ -197,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774343478885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added python module 12 solutions.">
+      <option name="closed" value="true" />
+      <created>1774958119209</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774958119209</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +240,8 @@
     <MESSAGE value="Moved Assignment4.py under correct directory" />
     <MESSAGE value="Added solutions to module 10" />
     <MESSAGE value="Moved python modules to subfolder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved python modules to subfolder" />
+    <MESSAGE value="Added python module 12 solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added python module 12 solutions." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ohjelmisto_2$Assigment1.coverage" NAME="Assigment1 Coverage Results" MODIFIED="1773850936684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module11" />

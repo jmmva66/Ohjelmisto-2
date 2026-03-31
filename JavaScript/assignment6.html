@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 6 - Calculate square root</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+        <h1>Assignment 6<br>
+            Square root and confirmation</h1>
+        <form id="getnumber">
+            Give a number: <input type="text" id="number1" name="number"><br>
+
+            <button type="button" onclick="calculate()">Submit</button>
+        </form>
+
+        <p id="Squareroot"></p>
+
+
+    <script>
+
+        function confirmation() {
+            let confirmtext = "Do you want me to calculate square root?";
+            return confirm(confirmtext) === true;
+        }
+
+        function calculate() {
+            const inputElement = document.querySelector("#number1");
+            const value = inputElement.value;
+            const target = document.querySelector("#Squareroot");
+
+            if (value === "") {
+                target.innerHTML = "Input cannot be empty.";
+                return;
+            }
+            const number = parseFloat(value);
+
+            if (isNaN(number)) {
+                target.innerHTML = "Please enter a valid numeric value.";
+            }
+            else {
+                if (confirmation())
+                {
+                    const result = Math.sqrt(number);
+                    target.innerHTML = "The square root of " + (number) + " is " + result;
+                }
+            }
+        }
+    </script>
+    <a href="module1_index.html">Module 1</a>
+</div>>
+</body>
+</html>
