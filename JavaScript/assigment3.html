@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment3</title>
+</head>
+<body>
+        <form id="getname">
+            Give first number: <input type="text" id="number1" name="name"><br>
+            Give second number: <input type="text" id="number2" name="name"><br>'
+            Give third number: <input type="text" id="number3" name="name"><br>
+
+            <button type="button" onclick="printresults()">Submit</button>
+        </form>
+
+        <p id="Target"></p>
+
+    <script>
+        function printresults() {
+        const inputField1 = document.querySelector("#number1");
+        const inputField2 = document.querySelector("#number2");
+        const inputField3 = document.querySelector("#number3");
+
+
+        const number1 = inputField1.value;
+        const number2 = inputField2.value;
+        const number3 = inputField3.value;
+
+        const sum_of_numbers = number1 + number2 + number3;
+
+        document.querySelector("#Target").innerHTML = "Sum of components:" + sum_of_numbers;
+        }
+    </script>
+</body>
+</html>
