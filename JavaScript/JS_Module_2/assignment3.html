@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 - Assignment 3</title>
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+    <h1>Dog Names</h1>
+    <button type="button" onclick="dogLogic()">Enter Dogs</button>
+    <ul id="dogList" style="text-align: left; display: inline-block;"></ul>
+    <script>
+        function dogLogic() {
+            let dogs = [];
+            for (let i = 0; i < 6; i++) {
+                dogs.push(prompt("Enter dog name " + (i + 1)));
+            }
+            dogs.sort().reverse();
+            const list = document.querySelector("#dogList");
+            list.innerHTML = "";
+            for (let dog of dogs) {
+                list.innerHTML += "<li>" + dog + "</li>";
+            }
+        }
+    </script>
+</div>
+</body>
+    <a href="module2_index.html" class="back-link">Module 2</a>
+</html>

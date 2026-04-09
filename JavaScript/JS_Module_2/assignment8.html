@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 - Assignment 8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+    <h1>String Concatenator</h1>
+
+    <form onsubmit="event.preventDefault();">
+        <p>Enter words separated by commas:</p>
+        <input type="text" id="stringInput" placeholder="e.g. Johnny, DeeDee, Joey">
+        <button type="button" onclick="handleConcat()">Concatenate</button>
+    </form>
+
+    <p id="concatResult" style="word-break: break-all; margin-top: 20px; font-weight: bold;"></p>
+
+    <script>
+        function concat(arr) {
+            let fullString = "";
+            for (let i = 0; i < arr.length; i++) {
+                fullString += arr[i].trim();
+            }
+            return fullString;
+        }
+
+        function handleConcat() {
+            const input = document.querySelector("#stringInput").value;
+            const target = document.querySelector("#concatResult");
+
+            if (input.trim() === "") {
+                target.innerHTML = "Please enter some words.";
+                return;
+            }
+
+            const wordsArray = input.split(",");
+
+            const result = concat(wordsArray);
+            target.innerHTML = "Result: " + result;
+        }
+    </script>
+
+    <br>
+    <a href="module2_index.html" class="back-link">Back to Module 2</a>
+</div>
+</body>
+</html>

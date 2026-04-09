@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 - Assignment 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+    <h1>Sort Until Zero</h1>
+    <p>Enter numbers. Entering 0 will display them from largest to smallest.</p>
+
+    <button type="button" onclick="collectNumbers()">Start Input</button>
+
+    <ul id="resultList" style="text-align: left; display: inline-block; margin-top: 20px;"></ul>
+
+    <script>
+        function collectNumbers() {
+            let nums = [];
+            const listElement = document.querySelector("#resultList");
+            listElement.innerHTML = "";
+
+            while (true) {
+                let n = parseInt(prompt("Enter a number (0 to stop):"));
+
+                if (isNaN(n)) {
+                    alert("Please enter a valid number.");
+                    continue;
+                }
+
+                if (n === 0) break;
+                nums.push(n);
+            }
+           nums.sort((a, b) => b - a);
+           for (let n of nums) {
+                let li = document.createElement("li");
+                li.textContent = n;
+                listElement.appendChild(li);
+            }
+
+            if (nums.length === 0) {
+                listElement.innerHTML = "<li>No numbers entered.</li>";
+            }
+        }
+    </script>
+
+    <br>
+    <a href="module2_index.html" class="back-link">← Back to Module 2</a>
+</div>
+</body>
+</html>

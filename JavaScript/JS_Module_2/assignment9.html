@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 - Assignment 9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+    <h1>Even Number Filter</h1>
+
+    <form onsubmit="event.preventDefault();">
+        <p>Enter numbers separated by commas:</p>
+        <input type="text" id="numbersInput" placeholder="e.g. 1, 2, 3, 4, 5">
+        <button type="button" onclick="handleEvenFilter()">Filter Evens</button>
+    </form>
+
+    <div id="evenResult" style="margin-top: 20px; text-align: left; line-height: 1.6;"></div>
+
+    <script>
+        function even(arr) {
+            let evenArray = [];
+            for (let n of arr) {
+                if (n % 2 === 0) {
+                    evenArray.push(n);
+                }
+            }
+            return evenArray;
+        }
+
+        function handleEvenFilter() {
+            const input = document.querySelector("#numbersInput").value;
+            const target = document.querySelector("#evenResult");
+
+            if (input.trim() === "") {
+                target.innerHTML = "Please enter some numbers.";
+                return;
+            }
+
+            const stringArray = input.split(",");
+            const numArray = [];
+
+            for (let s of stringArray) {
+                const n = parseInt(s.trim());
+                if (!isNaN(n)) {
+                    numArray.push(n);
+                }
+            }
+
+            const filtered = even(numArray);
+
+            console.log("Original Array:", numArray);
+            console.log("Even Array:", filtered);
+
+            target.innerHTML = `
+                <strong>Original:</strong> [${numArray.join(", ")}]<br>
+                <strong>Even numbers:</strong> [${filtered.join(", ")}]
+            `;
+        }
+    </script>
+
+    <br>
+    <a href="module2_index.html" class="back-link">Back to Module 2</a>
+</div>
+</body>
+</html>

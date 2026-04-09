@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 - Assignment 6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+    <h1>Roll Until 6</h1>
+    <button type="button" onclick="mainRoll()">Start Rolling</button>
+    <ul id="rollList" style="text-align: left; display: inline-block;"></ul>
+    <script>
+        function rollDice() {
+            return Math.floor(Math.random() * 6) + 1;
+        }
+        function mainRoll() {
+            const list = document.querySelector("#rollList");
+            list.innerHTML = "";
+            let result = 0;
+            while (result !== 6) {
+                result = rollDice();
+                list.innerHTML += "<li>Rolled: " + result + "</li>";
+            }
+        }
+    </script>
+</div>
+</body>
+    <a href="module2_index.html" class="back-link">Back to Module 2</a>
+</html>

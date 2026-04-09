@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 - Assignment 10</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+    <h1>Voting System</h1>
+    <button type="button" onclick="runElection()">Start Voting</button>
+    <div id="voteResults" style="text-align: left; margin-top: 20px;"></div>
+    <script>
+        function runElection() {
+            const numCandidates = parseInt(prompt("Number of candidates:"));
+            let candidates = [];
+
+            for (let i = 0; i < numCandidates; i++) {
+                let name = prompt("Name for candidate " + (i + 1));
+                candidates.push({ name: name, votes: 0 });
+            }
+
+            const numVoters = parseInt(prompt("Number of voters:"));
+            for (let i = 0; i < numVoters; i++) {
+                let vote = prompt("Voter " + (i + 1) + ": Who do you vote for?");
+                if (vote.trim() !== "") {
+                    let found = candidates.find(c => c.name.toLowerCase() === vote.toLowerCase());
+                    if (found) found.votes++;
+                }
+            }
+
+            candidates.sort((a, b) => b.votes - a.votes);
+
+            const target = document.querySelector("#voteResults");
+            let output = "<strong>The winner is " + candidates[0].name + " with " + candidates[0].votes + " votes.</strong><br><br>Results:<br>";
+
+            for (let c of candidates) {
+                output += c.name + ": " + c.votes + " votes<br>";
+                console.log(c.name + ": " + c.votes + " votes");
+            }
+            target.innerHTML = output;
+        }
+    </script>
+</div>
+    <a href="module2_index.html" class="back-link">Back to Module 2</a>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 - Assignment 7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+    <h1>Custom Dice</h1>
+    <button type="button" onclick="mainCustomRoll()">Start Rolling</button>
+    <ul id="customList" style="text-align: left; display: inline-block;"></ul>
+    <script>
+        function rollCustom(sides) {
+            return Math.floor(Math.random() * sides) + 1;
+        }
+        function mainCustomRoll() {
+            const sides = parseInt(prompt("How many sides on the dice?"));
+            const list = document.querySelector("#customList");
+            list.innerHTML = "";
+            let result = 0;
+            if (isNaN(sides) || sides < 1) return;
+            while (result !== sides) {
+                result = rollCustom(sides);
+                list.innerHTML += "<li>Rolled: " + result + "</li>";
+            }
+        }
+    </script>
+</div>
+    <a href="module2_index.html" class="back-link">Back to Module 2</a>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 - Assignment 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+    <h1>Reverse Numbers</h1>
+
+    <form id="getnumbers" onsubmit="event.preventDefault();">
+        1: <input type="text" class="num-in"><br>
+        2: <input type="text" class="num-in"><br>
+        3: <input type="text" class="num-in"><br>
+        4: <input type="text" class="num-in"><br>
+        5: <input type="text" class="num-in"><br>
+        <button type="button" onclick="printReverse()">Submit</button>
+    </form>
+
+    <p id="list"></p>
+
+    <script>
+        function printReverse() {
+            const inputs = document.querySelectorAll(".num-in");
+            const target = document.querySelector("#list");
+            let numbers = [];
+
+            for (let i = 0; i < inputs.length; i++) {
+                if (inputs[i].value.trim() !== "") {
+                    numbers.push(inputs[i].value);
+                }
+            }
+            let resultText = "Reversed: ";
+            for (let i = numbers.length - 1; i >= 0; i--) {
+                resultText += numbers[i] + (i > 0 ? ", " : "");
+            }
+            target.innerHTML = resultText;
+        }
+    </script>
+
+    <a href="module2_index.html" class="back-link">Module 2</a>
+</div>
+</body>
+</html>

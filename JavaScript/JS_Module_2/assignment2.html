@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 2 - Assignment 2</title>
+    <link rel="stylesheet" href="assignment-style.css">
+</head>
+<body>
+<div class="assignment-card">
+    <h1>Participants</h1>
+    <button type="button" onclick="getNames()">Start Entry</button>
+    <ol id="nameList" style="text-align: left; display: inline-block;"></ol>
+    <script>
+        function getNames() {
+            const count = parseInt(prompt("Enter number of participants:"));
+            let names = [];
+            for (let i = 0; i < count; i++) {
+                names.push(prompt("Enter name " + (i + 1)));
+            }
+            names.sort();
+            const list = document.querySelector("#nameList");
+            list.innerHTML = "";
+            for (let name of names) {
+                list.innerHTML += "<li>" + name + "</li>";
+            }
+        }
+    </script>
+</div>
+    <a href="module2_index.html" class="back-link">Module 2</a>
+</body>
+</html>

@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44eb11e8-035b-49a4-9c04-f286be739742" name="Changes" comment="Added python module 12 solutions.">
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/assignment9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/index_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/module1_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/index_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/module2_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/assigment3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/assignment3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/assignment1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/assignment1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/assignment2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/assignment2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,38 +63,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.assigment3.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Assigment1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Assignment1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Assignment2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Assignment3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Assignment4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.assigment3.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Assigment1.executor": "Run",
+    "Python.Assignment1.executor": "Run",
+    "Python.Assignment2.executor": "Run",
+    "Python.Assignment3.executor": "Run",
+    "Python.Assignment4.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/jmmva/PycharmProjects/Ohjelmisto-2/JavaScript/JS_Module_2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jmmva\PycharmProjects\Ohjelmisto-2\JavaScript\JS_Module_2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jmmva\PycharmProjects\Ohjelmisto-2\Python" />
       <recent name="C:\Users\jmmva\PycharmProjects\Ohjelmisto-2\Module9" />
@@ -151,8 +155,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.Assigment1" />
-      <item itemvalue="Python.Assignment1" />
       <item itemvalue="Python.Assigment2" />
+      <item itemvalue="Python.Assignment1" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -177,6 +181,10 @@
       <workItem from="1774343417399" duration="4761000" />
       <workItem from="1774949749431" duration="7853000" />
       <workItem from="1774979535859" duration="7487000" />
+      <workItem from="1775044118585" duration="958000" />
+      <workItem from="1775131832869" duration="546000" />
+      <workItem from="1775139595153" duration="14000" />
+      <workItem from="1775732704324" duration="2672000" />
     </task>
     <task id="LOCAL-00001" summary="Added solutions to module 9">
       <option name="closed" value="true" />
