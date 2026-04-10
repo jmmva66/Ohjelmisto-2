@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44eb11e8-035b-49a4-9c04-f286be739742" name="Changes" comment="Added python module 12 solutions.">
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/assignment9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/index_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JS_Module_2/module2_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Module13/Assignment1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +17,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -77,6 +65,7 @@
     "Python.Assignment4.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
@@ -90,7 +79,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "configurable.group.python.group.settings",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -104,7 +93,7 @@
       <recent name="C:\Users\jmmva\PycharmProjects\Ohjelmisto-2\Module9" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Assigment1">
+  <component name="RunManager">
     <configuration name="Assigment1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Ohjelmisto-2" />
       <option name="ENV_FILES" value="" />
@@ -185,6 +174,7 @@
       <workItem from="1775131832869" duration="546000" />
       <workItem from="1775139595153" duration="14000" />
       <workItem from="1775732704324" duration="2672000" />
+      <workItem from="1775831029108" duration="3189000" />
     </task>
     <task id="LOCAL-00001" summary="Added solutions to module 9">
       <option name="closed" value="true" />
@@ -256,6 +246,6 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto_2$Assignment2.coverage" NAME="Assignment2 Coverage Results" MODIFIED="1774957672901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Module12" />
     <SUITE FILE_PATH="coverage/Ohjelmisto_2$Assignment4.coverage" NAME="Assignment4 Coverage Results" MODIFIED="1773847295416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module10" />
     <SUITE FILE_PATH="coverage/Ohjelmisto_2$Assignment3.coverage" NAME="Assignment3 Coverage Results" MODIFIED="1773673101160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module9" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto_2$Assignment1.coverage" NAME="Assignment1 Coverage Results" MODIFIED="1774957332266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\jmmva\PycharmProjects\Ohjelmisto-2\Python\Module12" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto_2$Assignment1.coverage" NAME="Assignment1 Coverage Results" MODIFIED="1775832286297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Module13" />
   </component>
 </project>
