@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44eb11e8-035b-49a4-9c04-f286be739742" name="Changes" comment="Added python module 12 solutions.">
-      <change afterPath="$PROJECT_DIR$/Python/Module13/Assignment1.py" afterDir="false" />
+    <list default="true" id="44eb11e8-035b-49a4-9c04-f286be739742" name="Changes" comment="Added python module 13 solution.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,39 +50,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.assigment3.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Assigment1.executor": "Run",
-    "Python.Assignment1.executor": "Run",
-    "Python.Assignment2.executor": "Run",
-    "Python.Assignment3.executor": "Run",
-    "Python.Assignment4.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/jmmva/PycharmProjects/Ohjelmisto-2/JavaScript/JS_Module_2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.python.group.settings",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.assigment3.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Assigment1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jmmva/PycharmProjects/Ohjelmisto-2/JavaScript/JS_Module_2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.python.group.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jmmva\PycharmProjects\Ohjelmisto-2\JavaScript\JS_Module_2" />
@@ -93,7 +92,7 @@
       <recent name="C:\Users\jmmva\PycharmProjects\Ohjelmisto-2\Module9" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Assigment1">
     <configuration name="Assigment1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Ohjelmisto-2" />
       <option name="ENV_FILES" value="" />
@@ -174,7 +173,8 @@
       <workItem from="1775131832869" duration="546000" />
       <workItem from="1775139595153" duration="14000" />
       <workItem from="1775732704324" duration="2672000" />
-      <workItem from="1775831029108" duration="3189000" />
+      <workItem from="1775831029108" duration="5438000" />
+      <workItem from="1776012849085" duration="110000" />
     </task>
     <task id="LOCAL-00001" summary="Added solutions to module 9">
       <option name="closed" value="true" />
@@ -216,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774958119209</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added python module 13 solution.">
+      <option name="closed" value="true" />
+      <created>1775840375774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775840375774</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +247,8 @@
     <MESSAGE value="Added solutions to module 10" />
     <MESSAGE value="Moved python modules to subfolder" />
     <MESSAGE value="Added python module 12 solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added python module 12 solutions." />
+    <MESSAGE value="Added python module 13 solution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added python module 13 solution." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ohjelmisto_2$Assigment1.coverage" NAME="Assigment1 Coverage Results" MODIFIED="1773850936684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module11" />
